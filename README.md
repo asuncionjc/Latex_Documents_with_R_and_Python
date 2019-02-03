@@ -15,6 +15,11 @@ The goal of this repo is to give the steps to write LaTeX documents which includ
 
 To develop this project, the LaTeX package [listings](https://ctan.org/tex-archive/macros/latex/contrib/listings/) will be used. As far as I know, such library allows not only to write code as in an standard IDE as RStudio or PyCharm, but to include your own .R and .py scripts.
 
+## Previous requirements
+
+To write documents using LaTeX, it is obviously necessary to have the tools to do it. Although the installation of LaTeX exceeds the goals of this repo, [here](https://www.latex-tutorial.com/installation/) you can find how to do it.
+
+
 
 Developed By
 ------------
