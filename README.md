@@ -21,7 +21,7 @@ To write documents using LaTeX and execute chunks of R and Python code, it is ob
 
 For more information about the programme versions, I recommend you to read [this link](https://github.com/gpoore/pythontex/blob/master/pythontex/pythontex.pdf).
 
-###Install non-default Python packages
+### Install non-default Python packages
 
 Some Python packages are required for using pythontex, namely `pygments`, `numpy`, `scipy`, `matplotlib` and `sympy`. In the next lines, I will explain how to do it in a MAC computer. The steps for the installation in Linux or Windows platforms will be given soon. 
 
