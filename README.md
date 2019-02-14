@@ -13,13 +13,32 @@ The goal of this repo is to give the steps to write LaTeX documents which includ
 
 ## How it works?
 
-To develop this project, the LaTeX package [pythontex](https://ctan.org/pkg/pythontex) will be used. This package has been developed by [Geoffrey Poore](https://github.com/gpoore). The link to the Github repository can be found [here](https://github.com/gpoore/pythontex).
+To develop this project, the LaTeX package [pythontex](https://ctan.org/pkg/pythontex) will be used. This package has been developed by [Geoffrey Poore](https://github.com/gpoore). The link to its Github repository can be found [here](https://github.com/gpoore/pythontex).
 
 ## Previous requirements
 
 To write documents using LaTeX and execute chunks of R and Python code, it is obviously necessary to have the tools to do it. Although the installation of LaTeX, R and Python exceeds the goals of this repo, I suggest you some references to download and install them. Particularly, [here](https://www.latex-tutorial.com/installation/) you can find how to install Latex. Regarding R, [this page](https://www.r-project.org/) is recommended for the programme and [this one](https://www.rstudio.com/) to get the well known IDE, RStudio. Finally, downloading the IDE Pycharm [here](https://www.jetbrains.com/pycharm/), you will get also a version of Python.
 
-If non-default packages of this programmes are to be used in our repo, it will be conveniently stated when needed. 
+For more information about the programme versions, I recommend you to read [this link](https://github.com/gpoore/pythontex/blob/master/pythontex/pythontex.pdf).
+
+###Install non-default Python packages
+
+Some Python packages are required for using pythontex, namely `pygments`, `numpy`, `scipy`, `matplotlib` and `sympy`. In the next lines, I will explain how to do it in a MAC computer. The steps for the installation in Linux or Windows platforms will be given soon. 
+
+The first thing we need to know is: Which Python packages do I have? To ask this question you have to open a terminal and follow these steps:
+
+1) Call `python`.
+2) Type `help('modules)`
+3) Check the list of modules.
+
+A screencast which shows the process can be seen below:
+ 
+![check_packages_python](./videos/check_packages_python.gif)
+
+
+## Installation
+
+
 
 
 
