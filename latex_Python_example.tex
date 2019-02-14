@@ -1,0 +1,31 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%MY PACKAGES
+%%%%%%%%%%%%%%%%%%%%%%
+ \usepackage{pythontex}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\title{\textbf{\LaTeX{}  \texttt{Python} examples}}
+\date{}
+
+\maketitle
+
+A toy example with Python:
+\begin{pycode}
+my_string = 'A string from Python!'
+print(my_string)
+\end{pycode}
+
+\begin{pyblock}
+print(my_string)
+\end{pyblock}
+\begin{quotation}
+\printpythontex
+\end{quotation}
+
+Did you know that $2^{65} = \py{2**65}$?
+
+
+\end{document}
