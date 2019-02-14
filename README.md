@@ -13,7 +13,7 @@ The goal of this repo is to give the steps to write LaTeX documents which includ
 
 ## How it works?
 
-To develop this project, the LaTeX package [listings](https://ctan.org/tex-archive/macros/latex/contrib/listings/) will be used. As far as I know, such library allows not only to write code as in an standard IDE as RStudio or PyCharm, but to include your own .R and .py scripts.
+To develop this project, the LaTeX package [pythontex](https://ctan.org/pkg/pythontex) will be used. This package has been developed by [Geoffrey Poore](https://github.com/gpoore). The link to the Github repository can be found [here](https://github.com/gpoore/pythontex).
 
 ## Previous requirements
 
