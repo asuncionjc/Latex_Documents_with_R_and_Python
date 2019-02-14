@@ -1,0 +1,45 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%MY PACKAGES
+%%%%%%%%%%%%%%%%%%%%%%
+ \usepackage[usefamily = R]{pythontex}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\title{\textbf{\LaTeX{}  \texttt{R} and \texttt{Python} examples}}
+\date{}
+
+\maketitle
+
+A toy example with Python:
+\begin{pycode}
+my_string = 'A string from Python!'
+print(my_string)
+\end{pycode}
+
+\begin{pyblock}
+print(my_string)
+\end{pyblock}
+\begin{quotation}
+\printpythontex
+\end{quotation}
+
+Did you know that $2^{65} = \py{2**65}$?
+
+An example with \texttt{R}:
+
+\begin{Rcode}
+hello = 'hello world'
+print(hello)
+\end{Rcode}
+
+\begin{Rblock}
+hello = 'hello world'
+print(hello)
+\end{Rblock}
+
+
+
+
+\end{document}
