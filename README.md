@@ -17,7 +17,9 @@ To develop this project, the LaTeX package [pythontex](https://ctan.org/pkg/pyth
 
 ## Previous requirements
 
-To write documents using LaTeX and execute chunks of R and Python code, it is obviously necessary to have the tools to do it. Although the installation of LaTeX, R and Python exceeds the goals of this repo, I suggest you some references to download and install them. Particularly, [here](https://www.latex-tutorial.com/installation/) you can find how to install Latex. Regarding R, [this page](https://www.r-project.org/) is recommended for the programme and [this one](https://www.rstudio.com/) to get the well known IDE, RStudio. Finally, downloading the IDE Pycharm [here](https://www.jetbrains.com/pycharm/), you will get also a version of Python.  
+To write documents using LaTeX and execute chunks of R and Python code, it is obviously necessary to have the tools to do it. Although the installation of LaTeX, R and Python exceeds the goals of this repo, I suggest you some references to download and install them. Particularly, [here](https://www.latex-tutorial.com/installation/) you can find how to install Latex. Regarding R, [this page](https://www.r-project.org/) is recommended for the programme and [this one](https://www.rstudio.com/) to get the well known IDE, RStudio. Finally, downloading the IDE Pycharm [here](https://www.jetbrains.com/pycharm/), you will get also a version of Python.
+
+If non-default packages of this programmes are to be used in our repo, it will be conveniently stated when needed. 
 
 
 
