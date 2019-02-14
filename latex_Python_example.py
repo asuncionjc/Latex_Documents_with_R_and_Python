@@ -1,2 +1,0 @@
-print r"Hello \LaTeX!"
-
