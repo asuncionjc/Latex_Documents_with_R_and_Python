@@ -36,7 +36,20 @@ A screencast which shows the process can be seen below:
 ![check_packages_python](./videos_and_images_for_the_readme_file/check_packages_python.gif)
 
 Once we know which packages are installed and which ones are missed, we need to proceed to the installation of some non-default packages. To this aim, you have to be sure that `pip` (a tool for installing Python packages is installed). Otherwise, you will get errors like this:
-![error_no_pip_installed](./videos_and_images_for_the_readme_file/error_pip_not_installed.png) 
+
+![error_no_pip_installed](./videos_and_images_for_the_readme_file/error_pip_not_installed.png)
+
+To install `pip` you just have to open a terminal and follow these steps:
+
+1) Write `sudo easy_install pip`.
+2) Type the password of your Mac.
+3) Now, `pip` is installed.
+
+If you have doubts, then have a look at this video:
+
+![check_packages_python](./videos_and_images_for_the_readme_file/install_pip.gif)
+
+
 
 ## Installation
 
