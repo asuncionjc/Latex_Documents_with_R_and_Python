@@ -33,8 +33,10 @@ The first thing we need to know is: Which Python packages do I have? To ask this
 
 A screencast which shows the process can be seen below:
  
-![check_packages_python](./videos/check_packages_python.gif)
+![check_packages_python](./videos_and_images_for_the_readme_file/check_packages_python.gif)
 
+Once we know which packages are installed and which ones are missed, we need to proceed to the installation of some non-default packages. To this aim, you have to be sure that `pip` (a tool for installing Python packages is installed). Otherwise, you will get errors like this:
+![error_no_pip_installed](./videos_and_images_for_the_readme_file/error_pip_not_installed.png) 
 
 ## Installation
 
