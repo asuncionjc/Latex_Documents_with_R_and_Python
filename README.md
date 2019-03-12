@@ -25,6 +25,8 @@ For more information about the programme versions, I recommend you to read [this
 
 Some Python packages are required for using pythontex, namely `pygments`, `numpy`, `scipy`, `matplotlib` and `sympy`. In the next lines, I will explain how to do it in a MAC computer. The steps for the installation in Linux or Windows platforms will be given soon. 
 
+This section is especially devoted for beginners, so if you already know how to install packages in Python, go to the next section.
+
 The first thing we need to know is: Which Python packages do I have? To ask this question you have to open a terminal and follow these steps:
 
 1) Call `python`.
@@ -32,6 +34,8 @@ The first thing we need to know is: Which Python packages do I have? To ask this
 3) Check the list of modules.
 
 A screencast which shows the process can be seen below:
+
+![check_packages_python](./videos_and_images_for_the_readme_file/check_packages_python.gif)
 
 Once we know which packages are installed and which ones are missed, we need to proceed to the installation of some non-default packages. To this aim, you have to be sure that `pip` (a tool for installing Python packages is installed). Otherwise, you will get errors like this:
 
@@ -45,6 +49,17 @@ To install `pip` you just have to open a terminal and follow these steps:
 
 If you have doubts, then have a look at this video:
 
+![check_packages_python](./videos_and_images_for_the_readme_file/install_pip.gif)
+
+The next step is to install the python packages. Therefore, just write these instructions in a new terminal tab. Note that the given example shows how to install the `pygments` package. Hence, if a different library is to be installed, just change the name:
+
+ `sudo python -m pip install pygments`
+
+Check the video below for more details:
+
+![install_packages_python](./videos_and_images_for_the_readme_file/install_packages_python.gif)
+
+To test that the new packages have been downloaded, just execute `help('modules)` as explained above.
 
 ## Installation
 
