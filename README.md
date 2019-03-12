@@ -47,7 +47,7 @@ To install `pip` you just have to open a terminal and follow these steps:
 
 If you have doubts, then have a look at this video:
 
-[//]: <> (![check_packages_python](./videos_and_images_for_the_readme_file/install_pip.gif))
+[comment]: <> (![check_packages_python](./videos_and_images_for_the_readme_file/install_pip.gif))
 
 
 
